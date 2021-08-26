@@ -11,8 +11,7 @@ const options = {
     'method': 'GET',
     'url': 'https://api.twitter.com/1.1/search/tweets.json?q=%23UX&count=10&tweet_mode=extended',
     'headers': {
-        'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAF7OMwEAAAAAkP9G4gBKE%2B7%2FDbIXcKnipeeVsCU%3Da5AsW9DkaIbrto0JnOSPLbYHU145vgDTx5BsRsp1OjdbHpAjU7',
-        'Cookie': 'guest_id=v1%3A161390876970956770; personalization_id="v1_ZD0ZiDvLLzQTGeyaMr+rpA=="; lang=hu'
+        'Authorization': 'Bearer_Token'
     }
 };
 
