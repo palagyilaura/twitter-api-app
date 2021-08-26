@@ -1,0 +1,170 @@
+#campaigns {
+  width: 100%;
+}
+h2 {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 10px 0;
+  color: #484848;
+}
+.box {
+  background-color: white;
+  height: 114px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.status-name {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  text-align: center;
+  margin-right: 5px;
+  padding: 0 4px;
+}
+.status-day {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #8d8d8d;
+}
+.influencer-number {
+  color: #f60051;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.campaign-name {
+  color: #484848;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 18px;
+}
+.col {
+  display: flex;
+  position: relative;
+}
+.description {
+  margin-left: 15px;
+  position: relative;
+  width: 30%;
+}
+.center {
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.numbers {
+  width: 50%;
+  position: relative;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.column .number {
+  color: #f60051;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.column .text {
+  color: #8d8d8d;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text svg {
+  margin-right: 3px;
+}
+.bell {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+@media only screen and (min-width: 501px) {
+  .status-name {
+    font-size: 11px;
+  }
+  .status-day {
+    font-size: 10px;
+  }
+  .influencer-number {
+    font-size: 12px;
+  }
+  .campaign-name {
+    font-size: 16px;
+  }
+
+  .column .number {
+    font-size: 18px;
+  }
+  .column .text {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .status-name {
+    font-size: 9px;
+  }
+  .status-day {
+    font-size: 8px;
+  }
+  .influencer-number {
+    font-size: 10px;
+  }
+  .campaign-name {
+    font-size: 11px;
+  }
+  .column .number {
+    font-size: 12px;
+  }
+  .column .text {
+    font-size: 6px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .status-name {
+    font-size: 7px;
+  }
+  .status-day {
+    font-size: 6px;
+  }
+  .influencer-number {
+    font-size: 7px;
+    margin-top: 3px;
+  }
+  .campaign-name {
+    font-size: 9px;
+    line-height: 11px !important;
+  }
+  .column .number {
+    font-size: 8px;
+  }
+  .column .text {
+    font-size: 4px;
+  }
+  .text svg {
+    height: 5px;
+    margin-right: 1px;
+  }
+}

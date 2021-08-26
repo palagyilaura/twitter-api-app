@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #eae9eb;
+}
+.app {
+  min-height: 100vh;
+}
+.wrapper {
+  margin: 0 auto;
+}
+
+.campaign-btn {
+  background-color: #f60051;
+  border: 1px solid #e6004c;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.title {
+  color: #484848;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 851px) {
+  .body-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+  }
+  .body-content2 {
+    padding: 0 40px;
+  }
+  .body-1 {
+    width: 70%;
+  }
+  #dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+  }
+  .campaign-btn {
+    padding: 9px;
+
+    font-size: 13px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .body-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  .body-content2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  .body-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+  }
+  .campaign-btn {
+    padding: 9px;
+
+    color: white;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .body-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .body-content2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  #dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+  }
+  .campaign-btn {
+    padding: 9px;
+
+    font-size: 11px;
+  }
+  .title {
+    font-size: 14px;
+  }
+}
